@@ -1,0 +1,11 @@
+
+public class TipoTexto {
+
+	public static void main(String[] args) {
+		String nome = "Edson Santos";
+		
+		System.out.println("Olá " +nome +"!");
+
+	}
+
+}

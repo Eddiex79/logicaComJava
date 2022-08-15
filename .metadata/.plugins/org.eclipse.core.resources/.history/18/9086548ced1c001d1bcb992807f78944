@@ -1,0 +1,10 @@
+
+public class calculaTroco {
+
+	public static void main(String[] args) {
+		System.out.print("===TROCO CERTO===");
+		String valorProduto = 
+
+	}
+
+}

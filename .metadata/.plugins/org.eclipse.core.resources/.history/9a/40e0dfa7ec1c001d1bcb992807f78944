@@ -1,0 +1,21 @@
+import java.util.Scanner;
+
+public class TipoTexto {
+
+	public static void main(String[] args) {
+		
+		System.out.print("Digite o seu nome: ");
+		Scanner scanner = new Scanner(System.in);
+		String nome = scanner.nextLine();
+		
+		System.out.print("Qual a sua idade? ");
+		Double idade = scanner.nextDouble();
+		
+				
+		System.out.println("Ola " +nome +" sua idade eh " + idade );
+		
+		scanner.close();
+
+	}
+
+}
