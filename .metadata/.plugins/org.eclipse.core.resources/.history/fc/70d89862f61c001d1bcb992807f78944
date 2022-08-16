@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class podeTirarCnh {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		Integer idade = 20;
+		
+		Boolean podeTirarCnh = idade >= 18;
+		
+		if(podeTirarCnh === 18) {
+			System.out.println("Vc pode tirar a Cnh");
+		}
+		
+		scanner.close();
+
+	}
+
+}
