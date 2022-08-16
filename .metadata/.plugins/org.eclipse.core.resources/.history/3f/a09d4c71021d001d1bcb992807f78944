@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+public class notaDoAluno {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		Integer media = 7 ;
+		
+		Boolean resultado = media >=7;
+		
+		System.out.println("Digite a primeira nota: ");
+		Double primeiraNota = scanner.nextDouble();
+		
+		System.out.println("Digite a segunda nota: ");
+		Double segundaNota = scanner.nextDouble();
+		
+		System.out.println("Digite a terceira nota: ");
+		Double terceiraNota = scanner.nextDouble();
+		
+		
+		
+		
+		if(resultado ) {System.out.println("Aluno aprovado");
+			
+		}
+		
+		Double resultado = (primeiraNota + segundaNota + terceiraNota) / 3;  
+		
+		
+
+		scanner.close();
+	}
+
+}

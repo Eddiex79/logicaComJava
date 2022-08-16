@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class notaDoAluno {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		
+		System.out.println("Digite a primeira nota: ");
+		Double primeiraNota = scanner.nextDouble();
+
+		
+		scanner.close();
+	}
+
+}

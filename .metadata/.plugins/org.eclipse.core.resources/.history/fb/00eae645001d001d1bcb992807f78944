@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class notaDoAluno {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+				
+		
+		System.out.println("Digite a primeira nota: ");
+		Double primeiraNota = scanner.nextDouble();
+		
+		System.out.println("Digite a segunda nota: ");
+		Double segundaNota = scanner.nextDouble();
+		
+		System.out.println("Digite a terceira nota: ");
+		Double terceiraNota = scanner.nextDouble();
+		
+		
+		
+		Double resultado = (primeiraNota + segundaNota + terceiraNota) / 3;  
+		
+		
+
+		scanner.close();
+	}
+
+}
