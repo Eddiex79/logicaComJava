@@ -1,9 +1,0 @@
-
-public class TestaPontoFlutuante {
-	public static void main(String[] args) {
-		float real;
-		real = 30,5;
-		System.out.println(real);
-	}
-
-}
